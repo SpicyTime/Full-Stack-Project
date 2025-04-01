@@ -1,0 +1,7 @@
+.nav-button{
+    background-color:azure;
+}
+.nav-button:hover{
+    background-color: black;
+    color:white;
+}
