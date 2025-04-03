@@ -2,6 +2,27 @@
     background-color:azure;
 }
 .nav-button:hover{
-    background-color: black;
-    color:white;
+    background-color: rgb(142, 168, 168);
+    
+}
+#parent-container {
+    display: flex;
+    align-items: center;  /* Vertically center items */
+    justify-content: flex-start;  /* Align to the left */
+    gap: 20px;  /* Space between buttons and text */
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;  /* Space between buttons and text */
+}
+
+#text-container {
+    flex: 1;  /* Takes up remaining space */
+}
+button{
+    width: 4.5vw;
+    height: 3vh;
+    font-size: 1vw;
 }
